@@ -1,7 +1,4 @@
-# Save the new README content to a file so the user can download it if desired.
-readme_path = "/mnt/data/README_Praful_Bajpai.md"
 
-readme_content = """
 # Welcome to Praful Bajpai's Coding World! 💻
 
 <img src="https://komarev.com/ghpvc/?username=prafulbajpai&label=Views&color=blue&style=plastic" width="150" height="30">
@@ -105,11 +102,5 @@ I am a second-year student pursuing B.Tech in CSE from VIPS-TC. I’m a motivate
 
 ---
 
-**Let’s turn ideas into innovation!** 🌟
-"""
 
-# Write the content to the file
-with open(readme_path, "w") as f:
-    f.write(readme_content)
 
-readme_path
